@@ -16,18 +16,30 @@ please follow the .env.example file and create .env file
 
 ### Step 3: setup the database
 I am using the node version 20 build this project, so for switch the version
-#### nvm use 20
+```bash
+nvm use 20
+```
 
 ### Step 3:
 Start the development server using the following command:
-#### npm run start:dev
+```bash
+npm run start:dev
+```
 
 ## Run in Docker Environment
 
 ### Step - 1:
 To run the service in a Docker environment, use the following command:
-#### sudo docker-compose --env-file .env up --build
+```bash
+sudo docker-compose --env-file .env up --build
+```
+or you can use
+```bash
+sudo docker compose --env-file .env up --build
+```
 
 ### Step - 2:
 To stop the service and remove volumes and orphan containers, run:
-#### sudo docker compose down --volumes --remove-orphans
+```bash
+sudo docker compose down --volumes --remove-orphans
+```
