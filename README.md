@@ -1,6 +1,6 @@
 # User Listener Service
 
-This project is built using the NestJS framework and provides a simple user API service.
+This project is built using the NestJS framework and provides a user listner service.
 
 ## Run in Local Environment
 
