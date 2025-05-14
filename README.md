@@ -15,7 +15,7 @@ git clone https://github.com/abinash-thakur/user-listner-service.git
 please follow the .env.example file and create .env file
 
 ### Step 3: setup the database
-I am using the node version 20 build this project, so for switch the version
+I am using the node version 20 to build this project, so for switch the version
 ```bash
 nvm use 20
 ```
